@@ -1,0 +1,27 @@
+.page {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  max-width: 1200px;
+  margin: auto;
+}
+
+.header {
+  padding: 10px 15px;
+  background-color: rgb(58, 58, 58);
+}
+
+.nav {
+  color: white;
+}
+
+.nav .nav__list {
+  display: flex;
+  justify-content: center;
+}
+
+.nav .nav__item {
+  margin-right: 20px;
+}
+.nav .nav__item:hover {
+  color: rgb(64, 153, 64);
+  transition: .4s ease-in-out all;
+}
