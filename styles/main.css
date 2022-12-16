@@ -1,0 +1,30 @@
+.page__main {
+  margin-top: 20px;
+}
+
+.main {
+  padding: 10px 15px;
+}
+
+.main .main__heading {
+  width: fit-content;
+  margin: auto;
+  margin-bottom: 20px;
+}
+
+.about {
+  display: flex;
+  justify-content: space-around;
+}
+
+.about .about__avatar {
+  max-width: 35%;
+  border-radius: 50%;
+  margin-right: 20px;
+}
+
+.about .about__descr {
+  margin: auto 10px;
+  max-width: 500px;
+  line-height: 25px;
+}
