@@ -5,6 +5,9 @@
 .main {
   padding: 10px 15px;
 }
+.main .main__about{
+  margin-bottom: 30px;
+}
 
 .main .main__heading {
   width: fit-content;
@@ -15,6 +18,7 @@
 .about {
   display: flex;
   justify-content: space-around;
+  padding: 0 0 20px;
 }
 
 .about .about__avatar {
@@ -27,4 +31,26 @@
   margin: auto 10px;
   max-width: 500px;
   line-height: 25px;
+  font-size: 18px;
+}
+
+.contacts .contacts__list {
+  font-size: 18px;
+}
+.contacts .contacts__list .contacts__elem{
+  margin-bottom: 20px;
+}
+
+@media (max-width: 685px) {
+  .about {
+    flex-wrap: wrap;
+  }
+
+  .about .about__avatar {
+    max-width: 55%;
+  }
+
+  .about .about__descr {
+    margin-top: 30px;
+  }
 }

@@ -12,3 +12,7 @@ a {
   color: inherit;
   text-decoration: none;
 }
+
+section {
+  border-bottom: 1px solid gray;
+}
