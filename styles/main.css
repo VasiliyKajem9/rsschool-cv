@@ -41,6 +41,10 @@
   margin-bottom: 20px;
 }
 
+.codeExample pre{
+  font-size: 10px;
+}
+
 .skills .skills__list .skills__elem {
   margin-bottom: 15px;
   font-size: 18px;
@@ -61,5 +65,9 @@
 
   .about .about__descr {
     margin-top: 30px;
+  }
+
+  .codeExample pre{
+    font-size: 6px;
   }
 }
