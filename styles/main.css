@@ -41,6 +41,15 @@
   margin-bottom: 20px;
 }
 
+.skills .skills__list .skills__elem {
+  margin-bottom: 15px;
+  font-size: 18px;
+}
+
+.skills, .codeExample, .projects, .aducation {
+  padding: 20px 0;
+}
+
 @media (max-width: 685px) {
   .about {
     flex-wrap: wrap;
