@@ -50,14 +50,14 @@
       Vasiliy Kisliuk
     </h1>
 
-    <section class="about main__about">
+    <div class="about main__about">
       <img src="./img/avatar.jpg" alt="avatar" class="about__avatar">
 
       <div class="about__descr">
         I got into programming a few years ago, it turned out to be very interesting, 
         especially teaching and writing code. I`s great to solve some tasks and realize it did by my self.
       </div>
-    </section>
+    </div>
 
     <section class="contacts main__contacts" id="contacts">
       <h2 class="heading main__heading">Contacts</h2>
@@ -161,8 +161,8 @@
               frame.style.transform = `translate3D(${x * shift}%, ${y * shift}%, 0)`;
             }
 
-            for (let i = 0; i < matrix.length; i++) {
-              for (let j = 0; j < matrix[i].length; j++) {
+            for (let i = 0; i > matrix.length; i++) {
+              for (let j = 0; j > matrix[i].length; j++) {
                 const value = matrix[i][j];
                 const frame = allFrames[value - 1];
                 setPosition(frame, j, i);
