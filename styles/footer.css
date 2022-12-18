@@ -1,0 +1,26 @@
+.footer {
+  padding: 10px 15px;
+  background-color: rgb(58, 58, 58);
+}
+
+.footer__nav {
+  display: flex;
+  justify-content: center;
+  color: white;
+}
+
+.footer__nav .footer__link {
+  margin: auto 40px auto 0;
+}
+.footer__nav .footer__term {
+  text-align: center;
+}
+
+.footer__nav .footer__link:hover {
+  color: rgb(64, 153, 64);
+  transition: .4s ease-in-out all;
+}
+
+.rssLogo{
+  width: 80px;
+}
