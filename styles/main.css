@@ -1,0 +1,73 @@
+.page__main {
+  margin-top: 20px;
+}
+
+.main {
+  padding: 10px 15px;
+}
+.main .main__about{
+  margin-bottom: 30px;
+}
+
+.main .main__heading {
+  width: fit-content;
+  margin: auto;
+  margin-bottom: 20px;
+}
+
+.about {
+  display: flex;
+  justify-content: space-around;
+  padding: 0 0 20px;
+}
+
+.about .about__avatar {
+  max-width: 35%;
+  border-radius: 50%;
+  margin-right: 20px;
+}
+
+.about .about__descr {
+  margin: auto 10px;
+  max-width: 500px;
+  line-height: 25px;
+  font-size: 18px;
+}
+
+.contacts .contacts__list {
+  font-size: 18px;
+}
+.contacts .contacts__list .contacts__elem{
+  margin-bottom: 20px;
+}
+
+.codeExample pre{
+  font-size: 10px;
+}
+
+.skills .skills__list .skills__elem {
+  margin-bottom: 15px;
+  font-size: 18px;
+}
+
+.skills, .codeExample, .projects, .aducation {
+  padding: 20px 0;
+}
+
+@media (max-width: 685px) {
+  .about {
+    flex-wrap: wrap;
+  }
+
+  .about .about__avatar {
+    max-width: 55%;
+  }
+
+  .about .about__descr {
+    margin-top: 30px;
+  }
+
+  .codeExample pre{
+    font-size: 6px;
+  }
+}
